@@ -1,0 +1,30 @@
+# Smart Voice Assistant 🎙️
+
+A Python-based voice-activated desktop assistant with a dark-mode GUI.
+
+## Features
+- Voice command recognition with ambient noise adjustment
+- Open Chrome, Notepad, Spotify via voice
+- Google search, WhatsApp messaging, Email automation
+- Wikipedia fallback for unknown queries
+- Multithreaded GUI using CustomTkinter
+
+## Tech Stack
+Python, SpeechRecognition, pyttsx3, CustomTkinter, 
+Gmail SMTP, pywhatkit, Wikipedia API
+
+## Setup
+1. Clone the repo
+2. pip install -r requirements.txt
+3. Create a .env file (see .env.example)
+4. Run: python assistant.py
+
+## Commands
+| Say | Action |
+|-----|--------|
+| "open chrome" | Opens browser |
+| "search ..." | Google search |
+| "send whatsapp" | WhatsApp message |
+| "email" | Send email |
+| "time" | Current time |
+| "exit" | Close assistant |
