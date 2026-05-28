@@ -38,8 +38,8 @@ def listen():
 
 def send_email(to, subject, message):
     # Enter your app password and email here
-    user_email = 'paliwaldhruv11@gmail.com'
-    app_password = 'Dpa@96958716'
+    user_email = 'user email'
+    app_password = 'userpassword'
 
     msg = MIMEText(message)
     msg['Subject'] = subject
